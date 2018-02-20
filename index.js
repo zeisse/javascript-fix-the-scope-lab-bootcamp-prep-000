@@ -13,7 +13,7 @@ function yourAnimal() {
     var animal = 'cat';
     return animal;
   }
-  
+  var myScope = yourAnimal();
 }
 
 function add2(n) {
