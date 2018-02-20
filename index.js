@@ -11,9 +11,7 @@ function yourAnimal(animal) {
   // P.S.: You can't just hard-code 'cat' below
   return 'cat';
 
-  }
-  return animal;
-  
+ animal = yourAnimal();
 }
 
 function add2(n) {
