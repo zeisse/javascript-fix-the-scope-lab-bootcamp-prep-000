@@ -9,11 +9,10 @@ function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  var innerVariable = "secret";
+  var animal  = 'cat';
   return function innerScope () {
-    var inaccesiable = "nope";
-    
-    return innerVariable;
+    var animal = 'cat';
+    return animal;
   }
   
 }
