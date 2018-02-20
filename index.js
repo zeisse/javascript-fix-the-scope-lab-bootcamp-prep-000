@@ -14,6 +14,8 @@ function yourAnimal() {
     return animal;
   }
   var myScope = yourAnimal();
+  myscope;
+  
 }
 
 function add2(n) {
